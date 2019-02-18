@@ -1,0 +1,28 @@
+{
+  "name": "fastgoo/hangzhou-citybrain",
+  "type": "library",
+  "description": "杭州城市大脑，直接对接数据到杭州城市大脑的数据服务",
+  "keywords": [
+    "hangzhou",
+    "citybrain"
+  ],
+  "homepage": "https://github.com/fastgoo",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mr.Zhou",
+      "email": "773729704@qq.com",
+      "homepage": "https://github.com/fastgoo"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "CityBrain\\": "src/"
+    }
+  }
+}
+
